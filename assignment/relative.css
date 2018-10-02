@@ -1,0 +1,5 @@
+.deal {
+    position: absolute;
+    transform: translateY(245px);
+    z-index: 1;
+}

@@ -1,0 +1,56 @@
+
+
+h2 {
+    color: #555A61;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#featured-article {
+    width: 90vw;
+    background: #DDDEE1;
+    padding: 10px;
+    margin: 20px;
+}
+
+.teaser-article{
+    width: 90vw;
+}
+
+h3 {
+    color: #005CC7;
+    font-weight: lighter;   
+}
+
+.article-status {
+    display: flex;
+    align-items: center;
+    width: 90vw;
+    background: #FF8E00;
+    color: white;
+    max-height: 1.7em;
+}
+
+.article-status > * {
+    padding-left: 1em;
+}
+
+.rand-square {
+    height: 4px;
+    width: 4px;
+    border: 1px solid black;
+    position: absolute;
+}
+
+#rand-square-1 {
+    transform: translate(2.5vw,50vh);
+}
+
+#rand-square-2 {
+    transform: translate(97.5vw,50vh);
+}
